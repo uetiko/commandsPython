@@ -1,0 +1,2 @@
+class UuidError(ValueError):
+    pass
