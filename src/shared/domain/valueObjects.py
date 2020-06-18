@@ -4,7 +4,7 @@ from src.shared.domain.errors import UuidError
 
 
 class Uuid(object):
-    _value: uuid4
+    _value: uuid4 = None
 
     def __init__(self, value: str):
         self.validUuid(value)
