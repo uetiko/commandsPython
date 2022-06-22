@@ -2,7 +2,7 @@ pudb==2019.2
 pytest==5.4.2
 clint==0.5.1
 pandas
-numpy==1.18.4
+numpy==1.22.0
 tqdm
 alive-progress
 lxml
